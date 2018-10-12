@@ -1,0 +1,30 @@
+﻿<Window x:Class="wpf_mvvm_post_test.Config"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:wpf_mvvm_post_test"
+        mc:Ignorable="d"
+        ResizeMode="NoResize"
+        Title="Config" Height="300" Width="474"
+        DataContext="{Binding _viewModelConfig, Source={StaticResource MODEL}}">
+    <Grid Margin="0,0,0,-1">
+        <Label Content="API" HorizontalAlignment="Left" Height="27" Margin="10,10,0,0" VerticalAlignment="Top" Width="69"/>
+        <TextBox HorizontalAlignment="Left" Height="18" Margin="150,35,0,0" TextWrapping="Wrap" Text="{Binding API, Mode=TwoWay}" VerticalAlignment="Top" Width="299"/>
+        <TextBox HorizontalAlignment="Left" Height="18" Margin="150,58,0,0" TextWrapping="Wrap" Text="{Binding API_KEY, Mode=TwoWay}" VerticalAlignment="Top" Width="299"/>
+        <Label Content="API HOST" HorizontalAlignment="Left" Height="21" Margin="19,37,0,0" VerticalAlignment="Top" Width="60" FontSize="10"/>
+        <Label Content="TOKEN" HorizontalAlignment="Left" Height="23" Margin="19,58,0,0" VerticalAlignment="Top" Width="60" FontSize="10"/>
+        <TextBlock HorizontalAlignment="Left" Height="20" Margin="10,68,0,0" TextWrapping="Wrap" Text="_________________________________________________________________________________________" VerticalAlignment="Top" Width="448"/>
+        <Label Content="INTERVAL" HorizontalAlignment="Left" Height="27" Margin="10,86,0,0" VerticalAlignment="Top" Width="69"/>
+        <Label Content="TIME" HorizontalAlignment="Left" Height="23" Margin="19,118,0,0" VerticalAlignment="Top" Width="60" FontSize="10"/>
+        <TextBox HorizontalAlignment="Left" Height="18" Margin="150,123,0,0" TextWrapping="Wrap" Text="{Binding INTERVAL, Mode=TwoWay}" VerticalAlignment="Top" Width="67"/>
+        <Label Content="MINUTES" HorizontalAlignment="Left" Height="23" Margin="222,118,0,0" VerticalAlignment="Top" Width="60" FontSize="10"/>
+        <TextBlock HorizontalAlignment="Left" Height="20" Margin="10,135,0,0" TextWrapping="Wrap" Text="_________________________________________________________________________________________" VerticalAlignment="Top" Width="448"/>
+        <Label Content="DATABASE" HorizontalAlignment="Left" Height="27" Margin="10,155,0,0" VerticalAlignment="Top" Width="69"/>
+        <Label Content="DB HOST" HorizontalAlignment="Left" Height="21" Margin="19,182,0,0" VerticalAlignment="Top" Width="60" FontSize="10"/>
+        <TextBox HorizontalAlignment="Left" Height="18" Margin="150,182,0,0" TextWrapping="Wrap" Text="{Binding DB, Mode=TwoWay}" VerticalAlignment="Top" Width="299"/>
+        <TextBlock HorizontalAlignment="Left" Height="20" Margin="10,200,0,0" TextWrapping="Wrap" Text="_________________________________________________________________________________________" VerticalAlignment="Top" Width="448"/>
+        <Button Content="Save" HorizontalAlignment="Left" Height="34" Margin="278,220,0,0" VerticalAlignment="Top" Width="75" Click="Click_S_Config"/>
+        <Button Content="Close" HorizontalAlignment="Left" Height="34" Margin="371,220,0,0" VerticalAlignment="Top" Width="78" Click="Click_C_Config" RenderTransformOrigin="0.5,0.5"/>
+    </Grid>
+</Window>

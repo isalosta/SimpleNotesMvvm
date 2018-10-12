@@ -1,0 +1,2 @@
+C:\ProgramData\PostSharp\6.0.27\bin.Release\net471\PostSharp.Compiler.Engine.dll
+C:\Users\LENOVO E450\source\repos\wpf_mvvm_post_test\wpf_mvvm_post_test\obj\Debug\PostSharp\postsharp.config

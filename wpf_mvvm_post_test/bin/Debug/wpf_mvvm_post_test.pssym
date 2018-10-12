@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Symbols LinesOfCode="1092" PostSharpLinesOfCode="0" EnhancedTypesCount="6" SchemaVersion="1" PostSharpVersion="6.0.27.0" xmlns="http://schemas.postsharp.org/2.0/symbols">
+  <Evolution Source="#1=F:[wpf_mvvm_post_test]wpf_mvvm_post_test.ViewModelConfig::api" Target="#2=F:[wpf_mvvm_post_test]wpf_mvvm_post_test.ViewModelConfig::&lt;api&gt;k__OriginalField" />
+  <Evolution Source="#2" Target="#3=P:[wpf_mvvm_post_test]wpf_mvvm_post_test.ViewModelConfig::api()" />
+  <Evolution Source="#4=F:[wpf_mvvm_post_test]wpf_mvvm_post_test.ViewModelConfig::api_key" Target="#5=F:[wpf_mvvm_post_test]wpf_mvvm_post_test.ViewModelConfig::&lt;api_key&gt;k__OriginalField" />
+  <Evolution Source="#5" Target="#6=P:[wpf_mvvm_post_test]wpf_mvvm_post_test.ViewModelConfig::api_key()" />
+  <Evolution Source="#7=F:[wpf_mvvm_post_test]wpf_mvvm_post_test.ViewModelConfig::interval" Target="#8=F:[wpf_mvvm_post_test]wpf_mvvm_post_test.ViewModelConfig::&lt;interval&gt;k__OriginalField" />
+  <Evolution Source="#8" Target="#9=P:[wpf_mvvm_post_test]wpf_mvvm_post_test.ViewModelConfig::interval()" />
+  <Evolution Source="#10=F:[wpf_mvvm_post_test]wpf_mvvm_post_test.ViewModelConfig::db_name" Target="#11=F:[wpf_mvvm_post_test]wpf_mvvm_post_test.ViewModelConfig::&lt;db_name&gt;k__OriginalField" />
+  <Evolution Source="#11" Target="#12=P:[wpf_mvvm_post_test]wpf_mvvm_post_test.ViewModelConfig::db_name()" />
+  <Evolution Source="#13=F:[wpf_mvvm_post_test]wpf_mvvm_post_test.MainViewModel::id" Target="#14=F:[wpf_mvvm_post_test]wpf_mvvm_post_test.MainViewModel::&lt;id&gt;k__OriginalField" />
+  <Evolution Source="#14" Target="#15=P:[wpf_mvvm_post_test]wpf_mvvm_post_test.MainViewModel::id()" />
+  <Evolution Source="#16=F:[wpf_mvvm_post_test]wpf_mvvm_post_test.MainViewModel::title" Target="#17=F:[wpf_mvvm_post_test]wpf_mvvm_post_test.MainViewModel::&lt;title&gt;k__OriginalField" />
+  <Evolution Source="#17" Target="#18=P:[wpf_mvvm_post_test]wpf_mvvm_post_test.MainViewModel::title()" />
+  <Evolution Source="#19=F:[wpf_mvvm_post_test]wpf_mvvm_post_test.MainViewModel::content" Target="#20=F:[wpf_mvvm_post_test]wpf_mvvm_post_test.MainViewModel::&lt;content&gt;k__OriginalField" />
+  <Evolution Source="#20" Target="#21=P:[wpf_mvvm_post_test]wpf_mvvm_post_test.MainViewModel::content()" />
+  <Evolution Source="#22=F:[wpf_mvvm_post_test]wpf_mvvm_post_test.MainViewModel::idx" Target="#23=F:[wpf_mvvm_post_test]wpf_mvvm_post_test.MainViewModel::&lt;idx&gt;k__OriginalField" />
+  <Evolution Source="#23" Target="#24=P:[wpf_mvvm_post_test]wpf_mvvm_post_test.MainViewModel::idx()" />
+  <Evolution Source="#25=F:[wpf_mvvm_post_test]wpf_mvvm_post_test.MainViewModel::timer" Target="#26=F:[wpf_mvvm_post_test]wpf_mvvm_post_test.MainViewModel::&lt;timer&gt;k__OriginalField" />
+  <Evolution Source="#26" Target="#27=P:[wpf_mvvm_post_test]wpf_mvvm_post_test.MainViewModel::timer()" />
+  <Evolution Source="#28=F:[wpf_mvvm_post_test]wpf_mvvm_post_test.MainViewModel::ARR_TITLE" Target="#29=F:[wpf_mvvm_post_test]wpf_mvvm_post_test.MainViewModel::&lt;ARR_TITLE&gt;k__OriginalField" />
+  <Evolution Source="#29" Target="#30=P:[wpf_mvvm_post_test]wpf_mvvm_post_test.MainViewModel::ARR_TITLE()" />
+  <Evolution Source="#31=F:[wpf_mvvm_post_test]wpf_mvvm_post_test.MainViewModel::titles" Target="#32=F:[wpf_mvvm_post_test]wpf_mvvm_post_test.MainViewModel::&lt;titles&gt;k__OriginalField" />
+  <Evolution Source="#32" Target="#33=P:[wpf_mvvm_post_test]wpf_mvvm_post_test.MainViewModel::titles()" />
+  <Class Class="#34=T:[wpf_mvvm_post_test]wpf_mvvm_post_test.ExceptionHandlerAttribute">
+    <Instance Declaration="#35=T:[wpf_mvvm_post_test]wpf_mvvm_post_test.DataMain" Id="78bc7c298a724392">
+      <Target Target="#36=M:[wpf_mvvm_post_test]wpf_mvvm_post_test.DataMain::ApplyPacket(System.String[], System.String[], System.String[])" LinesAvoided="2">
+        <JoinPoint Description="#37=Wrapped by advice(s) OnException" Ordinal="75" />
+      </Target>
+      <Target Target="#38=M:[wpf_mvvm_post_test]wpf_mvvm_post_test.DataMain::LoadData()" LinesAvoided="2">
+        <JoinPoint Description="#37" Ordinal="76" />
+      </Target>
+      <Target Target="#39=M:[wpf_mvvm_post_test]wpf_mvvm_post_test.DataMain::Receiver([wpf_mvvm_post_test]wpf_mvvm_post_test.Responder)" LinesAvoided="2">
+        <JoinPoint Description="#37" Ordinal="77" />
+      </Target>
+      <Target Target="#40=M:[wpf_mvvm_post_test]wpf_mvvm_post_test.DataMain::#ctor()" LinesAvoided="2">
+        <JoinPoint Description="#37" Ordinal="78" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#41=M:[wpf_mvvm_post_test]wpf_mvvm_post_test.DbManager::Connect()" Id="78bc7c29cc372e43">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#37" Ordinal="67" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#42=M:[wpf_mvvm_post_test]wpf_mvvm_post_test.FromServer::GET([wpf_mvvm_post_test]wpf_mvvm_post_test.ServerGet)" Id="78bc7c294f451468">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#37" Ordinal="68" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#43=M:[wpf_mvvm_post_test]wpf_mvvm_post_test.FromServer::ADD([wpf_mvvm_post_test]wpf_mvvm_post_test.CreateNote)" Id="78bc7c298a1b0e53">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#37" Ordinal="69" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#44=M:[wpf_mvvm_post_test]wpf_mvvm_post_test.FromServer::UPDATE([wpf_mvvm_post_test]wpf_mvvm_post_test.ServerUpdate)" Id="78bc7c29bd70b421">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#37" Ordinal="70" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#45=M:[wpf_mvvm_post_test]wpf_mvvm_post_test.FromServer::DELETE([wpf_mvvm_post_test]wpf_mvvm_post_test.DeleteNote)" Id="78bc7c2924ba80b7">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#37" Ordinal="71" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#46=M:[wpf_mvvm_post_test]wpf_mvvm_post_test.MainWindow::Action_Update(System.Object, System.Windows.RoutedEventArgs)" Id="78bc7c293f6d8253">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#37" Ordinal="72" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#47=M:[wpf_mvvm_post_test]wpf_mvvm_post_test.MainWindow::Action_Create(System.Object, System.Windows.RoutedEventArgs)" Id="78bc7c295c7d1283">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#37" Ordinal="73" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#48=M:[wpf_mvvm_post_test]wpf_mvvm_post_test.MainWindow::Action_Delete(System.Object, System.Windows.RoutedEventArgs)" Id="78bc7c29a57fc9de">
+      <Target LinesAvoided="2">
+        <JoinPoint Description="#37" Ordinal="74" />
+      </Target>
+    </Instance>
+  </Class>
+  <Class Class="#49=T:[PostSharp.Patterns.Model]PostSharp.Patterns.Model.NotifyPropertyChangedAttribute">
+    <Instance Declaration="#50=T:[wpf_mvvm_post_test]wpf_mvvm_post_test.ViewModelConfig" Id="78bc7c29b3a23be0">
+      <Target>
+        <JoinPoint Advising="#49" Description="#51=Introduces method OnChildPropertyChanging" Ordinal="0" LinesAvoided="0" />
+        <JoinPoint Advising="#49" Description="#52=Introduces method QueryInterface" LinesAvoided="0" />
+        <JoinPoint Advising="#49" Description="#53=Introduces method OnChildPropertyChanged" Ordinal="2" LinesAvoided="0" />
+        <JoinPoint Advising="#49" Description="#54=Introduces event ChildPropertyChanging" Ordinal="3" LinesAvoided="0" />
+        <JoinPoint Advising="#49" Description="#55=Introduces event ChildPropertyChanged" Ordinal="4" LinesAvoided="0" />
+        <JoinPoint Advising="#49" Description="#56=Introduces method OnPropertyChanged" Ordinal="5" LinesAvoided="2" />
+        <JoinPoint Advising="#49" Description="#57=Introduces interface(s) INotifyChildPropertyChanged, IQueryInterface" Ordinal="6" LinesAvoided="0" />
+        <JoinPoint Advised="#58=M:[wpf_mvvm_post_test]wpf_mvvm_post_test.ViewModelConfig::get_API()" Advising="#49" Description="#59=Activates notifications for the property" Semantic="Getter" Ordinal="7" LinesAvoided="0" />
+        <JoinPoint Advised="#58" Advising="#49" Description="#60=Flushes the notification queue when the control flow exits the object" Semantic="Getter" Ordinal="8" LinesAvoided="0" />
+        <JoinPoint Advised="#61=M:[wpf_mvvm_post_test]wpf_mvvm_post_test.ViewModelConfig::set_API(System.String)" Advising="#49" Description="#60" Semantic="Setter" Ordinal="9" LinesAvoided="0" />
+        <JoinPoint Advised="#62=M:[wpf_mvvm_post_test]wpf_mvvm_post_test.ViewModelConfig::get_API_KEY()" Advising="#49" Description="#59" Semantic="Getter" Ordinal="10" LinesAvoided="0" />
+        <JoinPoint Advised="#62" Advising="#49" Description="#60" Semantic="Getter" Ordinal="11" LinesAvoided="0" />
+        <JoinPoint Advised="#63=M:[wpf_mvvm_post_test]wpf_mvvm_post_test.ViewModelConfig::set_API_KEY(System.String)" Advising="#49" Description="#60" Semantic="Setter" Ordinal="12" LinesAvoided="0" />
+        <JoinPoint Advised="#64=M:[wpf_mvvm_post_test]wpf_mvvm_post_test.ViewModelConfig::get_INTERVAL()" Advising="#49" Description="#59" Semantic="Getter" Ordinal="13" LinesAvoided="0" />
+        <JoinPoint Advised="#64" Advising="#49" Description="#60" Semantic="Getter" Ordinal="14" LinesAvoided="0" />
+        <JoinPoint Advised="#65=M:[wpf_mvvm_post_test]wpf_mvvm_post_test.ViewModelConfig::set_INTERVAL(System.String)" Advising="#49" Description="#60" Semantic="Setter" Ordinal="15" LinesAvoided="0" />
+        <JoinPoint Advised="#66=M:[wpf_mvvm_post_test]wpf_mvvm_post_test.ViewModelConfig::get_DB()" Advising="#49" Description="#59" Semantic="Getter" Ordinal="16" LinesAvoided="0" />
+        <JoinPoint Advised="#66" Advising="#49" Description="#60" Semantic="Getter" Ordinal="17" LinesAvoided="0" />
+        <JoinPoint Advised="#67=M:[wpf_mvvm_post_test]wpf_mvvm_post_test.ViewModelConfig::set_DB(System.String)" Advising="#49" Description="#60" Semantic="Setter" Ordinal="18" LinesAvoided="0" />
+        <JoinPoint Advised="#68=M:[wpf_mvvm_post_test]wpf_mvvm_post_test.ViewModelConfig::SET_VIEWCONFIG([wpf_mvvm_post_test]wpf_mvvm_post_test.DataConfigResponse)" Advising="#49" Description="#60" Ordinal="19" LinesAvoided="0" />
+        <JoinPoint Advised="#69=M:[wpf_mvvm_post_test]wpf_mvvm_post_test.ViewModelConfig::GET_DATA([wpf_mvvm_post_test]wpf_mvvm_post_test.GetDataConfig)" Advising="#49" Description="#60" Ordinal="20" LinesAvoided="0" />
+        <JoinPoint Advised="#2" Advising="#49" Description="#70=Enqueues change notifications for affected properties" Semantic="Setter" Ordinal="21" LinesAvoided="1" />
+        <JoinPoint Advised="#5" Advising="#49" Description="#70" Semantic="Setter" Ordinal="22" LinesAvoided="1" />
+        <JoinPoint Advised="#8" Advising="#49" Description="#70" Semantic="Setter" Ordinal="23" LinesAvoided="1" />
+        <JoinPoint Advised="#11" Advising="#49" Description="#70" Semantic="Setter" Ordinal="24" LinesAvoided="1" />
+      </Target>
+    </Instance>
+    <Instance Declaration="#71=T:[wpf_mvvm_post_test]wpf_mvvm_post_test.MainViewModel" Id="78bc7c295557123a">
+      <Target>
+        <JoinPoint Advising="#49" Description="#55" Ordinal="25" LinesAvoided="0" />
+        <JoinPoint Advising="#49" Description="#53" Ordinal="26" LinesAvoided="0" />
+        <JoinPoint Advising="#49" Description="#56" Ordinal="27" LinesAvoided="2" />
+        <JoinPoint Advising="#49" Description="#51" Ordinal="28" LinesAvoided="0" />
+        <JoinPoint Advising="#49" Description="#54" Ordinal="29" LinesAvoided="0" />
+        <JoinPoint Advising="#49" Description="#52" Ordinal="30" LinesAvoided="0" />
+        <JoinPoint Advising="#49" Description="#57" Ordinal="31" LinesAvoided="0" />
+        <JoinPoint Advised="#72=M:[wpf_mvvm_post_test]wpf_mvvm_post_test.MainViewModel::get_ID()" Advising="#49" Description="#59" Semantic="Getter" Ordinal="32" LinesAvoided="0" />
+        <JoinPoint Advised="#72" Advising="#49" Description="#60" Semantic="Getter" Ordinal="33" LinesAvoided="0" />
+        <JoinPoint Advised="#73=M:[wpf_mvvm_post_test]wpf_mvvm_post_test.MainViewModel::set_ID(System.String)" Advising="#49" Description="#60" Semantic="Setter" Ordinal="34" LinesAvoided="0" />
+        <JoinPoint Advised="#74=M:[wpf_mvvm_post_test]wpf_mvvm_post_test.MainViewModel::get_TITLE()" Advising="#49" Description="#59" Semantic="Getter" Ordinal="35" LinesAvoided="0" />
+        <JoinPoint Advised="#74" Advising="#49" Description="#60" Semantic="Getter" Ordinal="36" LinesAvoided="0" />
+        <JoinPoint Advised="#75=M:[wpf_mvvm_post_test]wpf_mvvm_post_test.MainViewModel::set_TITLE(System.String)" Advising="#49" Description="#60" Semantic="Setter" Ordinal="37" LinesAvoided="0" />
+        <JoinPoint Advised="#76=M:[wpf_mvvm_post_test]wpf_mvvm_post_test.MainViewModel::get_CONTENT()" Advising="#49" Description="#59" Semantic="Getter" Ordinal="38" LinesAvoided="0" />
+        <JoinPoint Advised="#76" Advising="#49" Description="#60" Semantic="Getter" Ordinal="39" LinesAvoided="0" />
+        <JoinPoint Advised="#77=M:[wpf_mvvm_post_test]wpf_mvvm_post_test.MainViewModel::set_CONTENT(System.String)" Advising="#49" Description="#60" Semantic="Setter" Ordinal="40" LinesAvoided="0" />
+        <JoinPoint Advised="#78=M:[wpf_mvvm_post_test]wpf_mvvm_post_test.MainViewModel::get_ITEM_ARR()" Advising="#49" Description="#59" Semantic="Getter" Ordinal="41" LinesAvoided="0" />
+        <JoinPoint Advised="#78" Advising="#49" Description="#60" Semantic="Getter" Ordinal="42" LinesAvoided="0" />
+        <JoinPoint Advised="#79=M:[wpf_mvvm_post_test]wpf_mvvm_post_test.MainViewModel::set_ITEM_ARR(System.String[])" Advising="#49" Description="#60" Semantic="Setter" Ordinal="43" LinesAvoided="0" />
+        <JoinPoint Advised="#80=M:[wpf_mvvm_post_test]wpf_mvvm_post_test.MainViewModel::get_ITEM()" Advising="#49" Description="#59" Semantic="Getter" Ordinal="44" LinesAvoided="0" />
+        <JoinPoint Advised="#80" Advising="#49" Description="#60" Semantic="Getter" Ordinal="45" LinesAvoided="0" />
+        <JoinPoint Advised="#81=M:[wpf_mvvm_post_test]wpf_mvvm_post_test.MainViewModel::set_ITEM(System.Collections.Generic.List{System.String})" Advising="#49" Description="#60" Semantic="Setter" Ordinal="46" LinesAvoided="0" />
+        <JoinPoint Advised="#82=M:[wpf_mvvm_post_test]wpf_mvvm_post_test.MainViewModel::get_TIMER()" Advising="#49" Description="#59" Semantic="Getter" Ordinal="47" LinesAvoided="0" />
+        <JoinPoint Advised="#82" Advising="#49" Description="#60" Semantic="Getter" Ordinal="48" LinesAvoided="0" />
+        <JoinPoint Advised="#83=M:[wpf_mvvm_post_test]wpf_mvvm_post_test.MainViewModel::set_TIMER(System.String)" Advising="#49" Description="#60" Semantic="Setter" Ordinal="49" LinesAvoided="0" />
+        <JoinPoint Advised="#84=M:[wpf_mvvm_post_test]wpf_mvvm_post_test.MainViewModel::get_SELECTED()" Advising="#49" Description="#60" Ordinal="50" LinesAvoided="0" />
+        <JoinPoint Advised="#85=M:[wpf_mvvm_post_test]wpf_mvvm_post_test.MainViewModel::set_SELECTED(System.Int32)" Advising="#49" Description="#60" Ordinal="51" LinesAvoided="0" />
+        <JoinPoint Advised="#86=M:[wpf_mvvm_post_test]wpf_mvvm_post_test.MainViewModel::SELECT([wpf_mvvm_post_test]wpf_mvvm_post_test.SelectData)" Advising="#49" Description="#60" Ordinal="52" LinesAvoided="0" />
+        <JoinPoint Advised="#87=M:[wpf_mvvm_post_test]wpf_mvvm_post_test.MainViewModel::GET_DISPLAY([wpf_mvvm_post_test]wpf_mvvm_post_test.GetDataMain)" Advising="#49" Description="#60" Ordinal="53" LinesAvoided="0" />
+        <JoinPoint Advised="#88=M:[wpf_mvvm_post_test]wpf_mvvm_post_test.MainViewModel::SET_COLLECTION([wpf_mvvm_post_test]wpf_mvvm_post_test.CollectionDataResponse)" Advising="#49" Description="#60" Ordinal="54" LinesAvoided="0" />
+        <JoinPoint Advised="#89=M:[wpf_mvvm_post_test]wpf_mvvm_post_test.MainViewModel::UPDATE_COLLECTION([wpf_mvvm_post_test]wpf_mvvm_post_test.DataResponse)" Advising="#49" Description="#60" Ordinal="55" LinesAvoided="0" />
+        <JoinPoint Advised="#90=M:[wpf_mvvm_post_test]wpf_mvvm_post_test.MainViewModel::TITLE_CHANGED([wpf_mvvm_post_test]wpf_mvvm_post_test.TitleChange)" Advising="#49" Description="#60" Ordinal="56" LinesAvoided="0" />
+        <JoinPoint Advised="#91=M:[wpf_mvvm_post_test]wpf_mvvm_post_test.MainViewModel::CONTENT_CHANGED([wpf_mvvm_post_test]wpf_mvvm_post_test.ContentChange)" Advising="#49" Description="#60" Ordinal="57" LinesAvoided="0" />
+        <JoinPoint Advised="#92=M:[wpf_mvvm_post_test]wpf_mvvm_post_test.MainViewModel::RESET_COLLECTION()" Advising="#49" Description="#60" Ordinal="58" LinesAvoided="0" />
+        <JoinPoint Advised="#93=M:[wpf_mvvm_post_test]wpf_mvvm_post_test.MainViewModel::SET_TIME([wpf_mvvm_post_test]wpf_mvvm_post_test.SetTimer)" Advising="#49" Description="#60" Ordinal="59" LinesAvoided="0" />
+        <JoinPoint Advised="#14" Advising="#49" Description="#70" Semantic="Setter" Ordinal="60" LinesAvoided="1" />
+        <JoinPoint Advised="#17" Advising="#49" Description="#70" Semantic="Setter" Ordinal="61" LinesAvoided="1" />
+        <JoinPoint Advised="#20" Advising="#49" Description="#70" Semantic="Setter" Ordinal="62" LinesAvoided="1" />
+        <JoinPoint Advised="#23" Advising="#49" Description="#70" Semantic="Setter" Ordinal="63" LinesAvoided="1" />
+        <JoinPoint Advised="#26" Advising="#49" Description="#70" Semantic="Setter" Ordinal="64" LinesAvoided="1" />
+        <JoinPoint Advised="#29" Advising="#49" Description="#70" Semantic="Setter" Ordinal="65" LinesAvoided="1" />
+        <JoinPoint Advised="#32" Advising="#49" Description="#70" Semantic="Setter" Ordinal="66" LinesAvoided="1" />
+      </Target>
+    </Instance>
+  </Class>
+  <Annotation Target="#94=M:[PostSharp.Patterns.Model]PostSharp.Patterns.Model.NotifyPropertyChangedAttribute::InitializeAspectInstance(PostSharp.Aspects.Advices.AspectInitializationReason)" Arguments="#95=2" Description="#96=PostSharp estimates that 2 line(s) of code are saved every time this advice is applied. Use the [LinesOfCodeAvoided] attribute on the aspect or specify the LinesOfCodeAvoided property on the advice attribute to override this value." />
+  <Annotation Target="#97=P:[wpf_mvvm_post_test]wpf_mvvm_post_test.ViewModelConfig::API()" Description="#98=The API property depends on api." />
+  <Annotation Target="#99=P:[wpf_mvvm_post_test]wpf_mvvm_post_test.ViewModelConfig::API_KEY()" Description="#100=The API_KEY property depends on api_key." />
+  <Annotation Target="#101=P:[wpf_mvvm_post_test]wpf_mvvm_post_test.ViewModelConfig::INTERVAL()" Description="#102=The INTERVAL property depends on interval." />
+  <Annotation Target="#103=P:[wpf_mvvm_post_test]wpf_mvvm_post_test.ViewModelConfig::DB()" Description="#104=The DB property depends on db_name." />
+  <Annotation Target="#105=P:[wpf_mvvm_post_test]wpf_mvvm_post_test.MainViewModel::ID()" Description="#106=The ID property depends on id." />
+  <Annotation Target="#107=P:[wpf_mvvm_post_test]wpf_mvvm_post_test.MainViewModel::TITLE()" Description="#108=The TITLE property depends on title." />
+  <Annotation Target="#109=P:[wpf_mvvm_post_test]wpf_mvvm_post_test.MainViewModel::CONTENT()" Description="#110=The CONTENT property depends on content." />
+  <Annotation Target="#111=P:[wpf_mvvm_post_test]wpf_mvvm_post_test.MainViewModel::ITEM_ARR()" Description="#112=The ITEM_ARR property depends on titles." />
+  <Annotation Target="#113=P:[wpf_mvvm_post_test]wpf_mvvm_post_test.MainViewModel::ITEM()" Description="#114=The ITEM property depends on ARR_TITLE." />
+  <Annotation Target="#115=P:[wpf_mvvm_post_test]wpf_mvvm_post_test.MainViewModel::SELECTED()" Description="#116=The SELECTED property depends on idx." />
+  <Annotation Target="#117=P:[wpf_mvvm_post_test]wpf_mvvm_post_test.MainViewModel::TIMER()" Description="#118=The TIMER property depends on timer." />
+  <Annotation Target="#119=M:[wpf_mvvm_post_test]wpf_mvvm_post_test.ExceptionHandlerAttribute::OnException(PostSharp.Aspects.MethodExecutionArgs)" Arguments="#95" Description="#96" />
+</Symbols>
