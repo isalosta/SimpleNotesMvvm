@@ -1,4 +1,4 @@
-﻿using System.Windows;
+using System.Windows;
 using System.Windows.Input;
 using GalaSoft.MvvmLight.Messaging;
 
@@ -63,6 +63,11 @@ namespace wpf_mvvm_post_test
         private void Action_Delete(object sender,  RoutedEventArgs e)
         {
             Messenger.Default.Send<Command>(new Command() { _cmd = Constants.CMD_RUN_DELETE });
+        }
+
+        private void Exit(object sender, RoutedEventArgs e)
+        {
+            this.Close();
         }
     }
 }
