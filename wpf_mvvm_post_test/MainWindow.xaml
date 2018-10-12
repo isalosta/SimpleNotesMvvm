@@ -1,4 +1,4 @@
-﻿<Window x:Class="wpf_mvvm_post_test.MainWindow"
+<Window x:Class="wpf_mvvm_post_test.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
@@ -13,16 +13,16 @@
     <DockPanel Background="#FF3E3E42" Margin="0,0,0,-3">
         <Menu DockPanel.Dock="Top" Background="#FF2D2D30">
             <MenuItem Header="_File" TextBlock.Foreground="White">
-                <MenuItem Header="_New" TextBlock.Foreground="Black" />
-                <MenuItem Header="_Save" TextBlock.Foreground="Black" />
+                <MenuItem Header="_New" TextBlock.Foreground="Black" Click="Action_Create" />
+                <MenuItem Header="_Save" TextBlock.Foreground="Black" Click="Action_Update" />
                 <Separator/>
                 <MenuItem Header="Configuration" TextBlock.Foreground="Gray" Click="Click_O_Config"/>
                 <Separator />
-                <MenuItem Header="EXIT" TextBlock.Foreground="White" Background="#FFF10000"/>
+                <MenuItem Header="EXIT" TextBlock.Foreground="White" Background="#FFF10000" Click="Exit"/>
             </MenuItem>
             <MenuItem Header="_Tools" TextBlock.Foreground="White">
-                <MenuItem Header="Sync Now" TextBlock.Foreground="Gray"/>
-                <MenuItem Header="Delete Notes" TextBlock.Foreground="Gray"/>
+                <MenuItem Header="Sync Now" TextBlock.Foreground="Gray" Click="Action_Update"/>
+                <MenuItem Header="Delete Notes" TextBlock.Foreground="Gray" Click="Action_Delete"/>
             </MenuItem>
         </Menu>
         <Menu DockPanel.Dock="Bottom" Background="Orange" Height="26">
